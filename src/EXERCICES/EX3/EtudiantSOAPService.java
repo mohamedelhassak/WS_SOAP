@@ -5,6 +5,7 @@ import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -72,12 +73,27 @@ public class EtudiantSOAPService {
 
         for (int i = 0; i <etudiants.size() ; i++) {
             double note = (etudiants.get(i).getNote1()+etudiants.get(i).getNote2())/2;
-            if (note > 12){
+            if (note > 16){
                 etudiantsMaj.add(etudiants.get(i));
             }
         }
 
         return etudiantsMaj;
+    }
+
+
+    @WebMethod(operationName = "getEtudiantsTries",exclude = false)
+    public List<Etudiant> getEtudiantsTriers(){
+        List<Etudiant> etudiantsTries = new ArrayList<>();
+
+        etudiants.forEach(e->{
+            etudiantsTries.add(e);
+        });
+
+        Collections.sort(etudiantsTries,null);
+
+        return etudiantsTries;
+
     }
 
 }

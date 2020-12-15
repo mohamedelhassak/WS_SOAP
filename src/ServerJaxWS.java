@@ -1,6 +1,7 @@
 import EXERCICES.EX1.BanqueService;
 import EXERCICES.EX2.ApproxPIService;
 import EXERCICES.EX3.EtudiantSOAPService;
+import EXERCICES.EX4.EQ2DEGService;
 
 import javax.xml.ws.Endpoint;
 
@@ -13,6 +14,7 @@ public class ServerJaxWS {
         String URL_EX1 = "http://localhost:8088/EX1";
         String URL_EX2 = "http://localhost:8089/EX2";
         String URL_EX3 = "http://localhost:8087/EX3";
+        String URL_EX4 = "http://localhost:8090/EX4";
 
 
         /***********************************************************
@@ -28,5 +30,8 @@ public class ServerJaxWS {
 
         Endpoint.publish(URL_EX3,new EtudiantSOAPService());
         System.out.println("Web Service Demarre sur "+URL_EX3+" ...");
+
+        Endpoint.publish(URL_EX4,new EQ2DEGService());
+        System.out.println("Web Service Demarre sur "+URL_EX4+" ...");
     }
 }
