@@ -1,4 +1,3 @@
-
 package EXERCICES.EX1.proxy;
 
 import javax.xml.bind.JAXBElement;
@@ -8,18 +7,17 @@ import javax.xml.namespace.QName;
 
 
 /**
- * This object contains factory methods for each 
- * Java content interface and Java element interface 
- * generated in the exercices.ex1 package. 
- * <p>An ObjectFactory allows you to programatically 
- * construct new instances of the Java representation 
- * for XML content. The Java representation of XML 
- * content can consist of schema derived interfaces 
- * and classes representing the binding of schema 
- * type definitions, element declarations and model 
- * groups.  Factory methods for each of these are 
+ * This object contains factory methods for each
+ * Java content interface and Java element interface
+ * generated in the exercices.ex1 package.
+ * <p>An ObjectFactory allows you to programatically
+ * construct new instances of the Java representation
+ * for XML content. The Java representation of XML
+ * content can consist of schema derived interfaces
+ * and classes representing the binding of schema
+ * type definitions, element declarations and model
+ * groups.  Factory methods for each of these are
  * provided in this class.
- * 
  */
 @XmlRegistry
 public class ObjectFactory {
@@ -33,14 +31,12 @@ public class ObjectFactory {
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: exercices.ex1
-     * 
      */
     public ObjectFactory() {
     }
 
     /**
      * Create an instance of {@link GetCompte }
-     * 
      */
     public GetCompte createGetCompte() {
         return new GetCompte();
@@ -48,7 +44,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link GetCompteResponse }
-     * 
      */
     public GetCompteResponse createGetCompteResponse() {
         return new GetCompteResponse();
@@ -56,7 +51,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link GetComptes }
-     * 
      */
     public GetComptes createGetComptes() {
         return new GetComptes();
@@ -64,7 +58,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ConversionEuroToDhResponse }
-     * 
      */
     public ConversionEuroToDhResponse createConversionEuroToDhResponse() {
         return new ConversionEuroToDhResponse();
@@ -72,7 +65,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link GetComptesResponse }
-     * 
      */
     public GetComptesResponse createGetComptesResponse() {
         return new GetComptesResponse();
@@ -80,7 +72,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ConversionEuroToDh }
-     * 
      */
     public ConversionEuroToDh createConversionEuroToDh() {
         return new ConversionEuroToDh();
@@ -88,7 +79,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link Compte }
-     * 
      */
     public Compte createCompte() {
         return new Compte();
@@ -96,7 +86,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetCompteResponse }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://EX1.EXERCICES/", name = "getCompteResponse")
     public JAXBElement<GetCompteResponse> createGetCompteResponse(GetCompteResponse value) {
@@ -105,7 +94,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetCompte }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://EX1.EXERCICES/", name = "getCompte")
     public JAXBElement<GetCompte> createGetCompte(GetCompte value) {
@@ -114,7 +102,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link ConversionEuroToDh }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://EX1.EXERCICES/", name = "conversionEuroToDh")
     public JAXBElement<ConversionEuroToDh> createConversionEuroToDh(ConversionEuroToDh value) {
@@ -123,7 +110,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetComptesResponse }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://EX1.EXERCICES/", name = "getComptesResponse")
     public JAXBElement<GetComptesResponse> createGetComptesResponse(GetComptesResponse value) {
@@ -132,7 +118,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link ConversionEuroToDhResponse }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://EX1.EXERCICES/", name = "conversionEuroToDhResponse")
     public JAXBElement<ConversionEuroToDhResponse> createConversionEuroToDhResponse(ConversionEuroToDhResponse value) {
@@ -141,7 +126,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link GetComptes }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "http://EX1.EXERCICES/", name = "getComptes")
     public JAXBElement<GetComptes> createGetComptes(GetComptes value) {

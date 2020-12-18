@@ -1,4 +1,3 @@
-
 package EXERCICES.EX1.proxy;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -10,9 +9,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 /**
  * <p>Java class for compte complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="compte">
  *   &lt;complexContent>
@@ -25,13 +24,11 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "compte",namespace = "myservice", propOrder = {
-    "code",
-    "dateCreation"
+@XmlType(name = "compte", namespace = "myservice", propOrder = {
+        "code",
+        "dateCreation"
 })
 public class Compte {
 
@@ -41,11 +38,9 @@ public class Compte {
 
     /**
      * Gets the value of the code property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Long }
-     *     
+     *
+     * @return possible object is
+     * {@link Long }
      */
     public Long getCode() {
         return code;
@@ -53,11 +48,9 @@ public class Compte {
 
     /**
      * Sets the value of the code property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Long }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link Long }
      */
     public void setCode(Long value) {
         this.code = value;
@@ -65,11 +58,9 @@ public class Compte {
 
     /**
      * Gets the value of the dateCreation property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     *
+     * @return possible object is
+     * {@link XMLGregorianCalendar }
      */
     public XMLGregorianCalendar getDateCreation() {
         return dateCreation;
@@ -77,11 +68,9 @@ public class Compte {
 
     /**
      * Sets the value of the dateCreation property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link XMLGregorianCalendar }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link XMLGregorianCalendar }
      */
     public void setDateCreation(XMLGregorianCalendar value) {
         this.dateCreation = value;

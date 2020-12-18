@@ -1,4 +1,3 @@
-
 package EXERCICES.EX3.proxy;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -8,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for getEtudiantsMajorants complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="getEtudiantsMajorants">
  *   &lt;complexContent>
@@ -21,11 +20,9 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getEtudiantsMajorants",namespace = "myservice")
+@XmlType(name = "getEtudiantsMajorants", namespace = "myservice")
 public class GetEtudiantsMajorants {
 
 

@@ -1,4 +1,3 @@
-
 package EXERCICES.EX4.proxy;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -9,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for resoudreEq2deg complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="resoudreEq2deg">
  *   &lt;complexContent>
@@ -25,14 +24,12 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "resoudreEq2deg",namespace = "myservice",propOrder = {
-    "a",
-    "b",
-    "c"
+@XmlType(name = "resoudreEq2deg", namespace = "myservice", propOrder = {
+        "a",
+        "b",
+        "c"
 })
 public class ResoudreEq2Deg {
 
@@ -45,7 +42,6 @@ public class ResoudreEq2Deg {
 
     /**
      * Gets the value of the a property.
-     * 
      */
     public double getA() {
         return a;
@@ -53,7 +49,6 @@ public class ResoudreEq2Deg {
 
     /**
      * Sets the value of the a property.
-     * 
      */
     public void setA(double value) {
         this.a = value;
@@ -61,7 +56,6 @@ public class ResoudreEq2Deg {
 
     /**
      * Gets the value of the b property.
-     * 
      */
     public double getB() {
         return b;
@@ -69,7 +63,6 @@ public class ResoudreEq2Deg {
 
     /**
      * Sets the value of the b property.
-     * 
      */
     public void setB(double value) {
         this.b = value;
@@ -77,7 +70,6 @@ public class ResoudreEq2Deg {
 
     /**
      * Gets the value of the c property.
-     * 
      */
     public double getC() {
         return c;
@@ -85,7 +77,6 @@ public class ResoudreEq2Deg {
 
     /**
      * Sets the value of the c property.
-     * 
      */
     public void setC(double value) {
         this.c = value;

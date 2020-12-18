@@ -1,4 +1,3 @@
-
 package EXERCICES.EX1.proxy;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -9,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for getCompteResponse complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="getCompteResponse">
  *   &lt;complexContent>
@@ -23,12 +22,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getCompteResponse",namespace = "myservice", propOrder = {
-    "_return"
+@XmlType(name = "getCompteResponse", namespace = "myservice", propOrder = {
+        "_return"
 })
 public class GetCompteResponse {
 
@@ -37,11 +34,9 @@ public class GetCompteResponse {
 
     /**
      * Gets the value of the return property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Compte }
-     *     
+     *
+     * @return possible object is
+     * {@link Compte }
      */
     public Compte getReturn() {
         return _return;
@@ -49,11 +44,9 @@ public class GetCompteResponse {
 
     /**
      * Sets the value of the return property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Compte }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link Compte }
      */
     public void setReturn(Compte value) {
         this._return = value;

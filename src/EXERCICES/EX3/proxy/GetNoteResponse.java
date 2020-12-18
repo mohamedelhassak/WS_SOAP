@@ -1,4 +1,3 @@
-
 package EXERCICES.EX3.proxy;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -9,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for getNoteResponse complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="getNoteResponse">
  *   &lt;complexContent>
@@ -23,12 +22,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "getNoteResponse",namespace = "myservice", propOrder = {
-    "_return"
+@XmlType(name = "getNoteResponse", namespace = "myservice", propOrder = {
+        "_return"
 })
 public class GetNoteResponse {
 
@@ -37,7 +34,6 @@ public class GetNoteResponse {
 
     /**
      * Gets the value of the return property.
-     * 
      */
     public double getReturn() {
         return _return;
@@ -45,7 +41,6 @@ public class GetNoteResponse {
 
     /**
      * Sets the value of the return property.
-     * 
      */
     public void setReturn(double value) {
         this._return = value;

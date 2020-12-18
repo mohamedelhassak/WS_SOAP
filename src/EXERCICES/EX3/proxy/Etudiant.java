@@ -1,4 +1,3 @@
-
 package EXERCICES.EX3.proxy;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -8,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for etudiant complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="etudiant">
  *   &lt;complexContent>
@@ -26,16 +25,14 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "etudiant",namespace = "myservice",propOrder = {
-    "id",
-    "nom",
-    "note1",
-    "note2",
-    "prenom"
+@XmlType(name = "etudiant", namespace = "myservice", propOrder = {
+        "id",
+        "nom",
+        "note1",
+        "note2",
+        "prenom"
 })
 public class Etudiant {
 
@@ -47,11 +44,9 @@ public class Etudiant {
 
     /**
      * Gets the value of the id property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Long }
-     *     
+     *
+     * @return possible object is
+     * {@link Long }
      */
     public Long getId() {
         return id;
@@ -59,11 +54,9 @@ public class Etudiant {
 
     /**
      * Sets the value of the id property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Long }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link Long }
      */
     public void setId(Long value) {
         this.id = value;
@@ -71,11 +64,9 @@ public class Etudiant {
 
     /**
      * Gets the value of the nom property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getNom() {
         return nom;
@@ -83,11 +74,9 @@ public class Etudiant {
 
     /**
      * Sets the value of the nom property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setNom(String value) {
         this.nom = value;
@@ -95,7 +84,6 @@ public class Etudiant {
 
     /**
      * Gets the value of the note1 property.
-     * 
      */
     public double getNote1() {
         return note1;
@@ -103,7 +91,6 @@ public class Etudiant {
 
     /**
      * Sets the value of the note1 property.
-     * 
      */
     public void setNote1(double value) {
         this.note1 = value;
@@ -111,7 +98,6 @@ public class Etudiant {
 
     /**
      * Gets the value of the note2 property.
-     * 
      */
     public double getNote2() {
         return note2;
@@ -119,7 +105,6 @@ public class Etudiant {
 
     /**
      * Sets the value of the note2 property.
-     * 
      */
     public void setNote2(double value) {
         this.note2 = value;
@@ -127,11 +112,9 @@ public class Etudiant {
 
     /**
      * Gets the value of the prenom property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getPrenom() {
         return prenom;
@@ -139,11 +122,9 @@ public class Etudiant {
 
     /**
      * Sets the value of the prenom property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setPrenom(String value) {
         this.prenom = value;

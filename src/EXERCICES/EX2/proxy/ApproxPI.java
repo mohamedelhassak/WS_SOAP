@@ -1,4 +1,3 @@
-
 package EXERCICES.EX2.proxy;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -8,9 +7,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for approxPI complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="approxPI">
  *   &lt;complexContent>
@@ -22,12 +21,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "approxPI",namespace = "myservice",propOrder = {
-    "max"
+@XmlType(name = "approxPI", namespace = "myservice", propOrder = {
+        "max"
 })
 public class ApproxPI {
 
@@ -35,7 +32,6 @@ public class ApproxPI {
 
     /**
      * Gets the value of the max property.
-     * 
      */
     public int getMax() {
         return max;
@@ -43,7 +39,6 @@ public class ApproxPI {
 
     /**
      * Sets the value of the max property.
-     * 
      */
     public void setMax(int value) {
         this.max = value;

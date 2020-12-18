@@ -12,21 +12,9 @@ public class Compte {
     private double solde;
     private Date dateCreation;
 
-    public Compte(Long code,double solde, Date dateCreation) {
+    public Compte(Long code, double solde, Date dateCreation) {
         this.code = code;
         this.solde = solde;
-        this.dateCreation = dateCreation;
-    }
-
-    public void setCode(Long code) {
-        this.code = code;
-    }
-
-    public void setSolde(double solde) {
-        this.solde = solde;
-    }
-
-    public void setDateCreation(Date dateCreation) {
         this.dateCreation = dateCreation;
     }
 
@@ -34,11 +22,23 @@ public class Compte {
         return code;
     }
 
+    public void setCode(Long code) {
+        this.code = code;
+    }
+
     public double getSolde() {
         return solde;
     }
 
+    public void setSolde(double solde) {
+        this.solde = solde;
+    }
+
     public Date getDateCreation() {
         return dateCreation;
+    }
+
+    public void setDateCreation(Date dateCreation) {
+        this.dateCreation = dateCreation;
     }
 }

@@ -1,4 +1,3 @@
-
 package EXERCICES.EX4.proxy;
 
 import javax.xml.bind.JAXBElement;
@@ -8,18 +7,17 @@ import javax.xml.namespace.QName;
 
 
 /**
- * This object contains factory methods for each 
- * Java content interface and Java element interface 
- * generated in the proxy package. 
- * <p>An ObjectFactory allows you to programatically 
- * construct new instances of the Java representation 
- * for XML content. The Java representation of XML 
- * content can consist of schema derived interfaces 
- * and classes representing the binding of schema 
- * type definitions, element declarations and model 
- * groups.  Factory methods for each of these are 
+ * This object contains factory methods for each
+ * Java content interface and Java element interface
+ * generated in the proxy package.
+ * <p>An ObjectFactory allows you to programatically
+ * construct new instances of the Java representation
+ * for XML content. The Java representation of XML
+ * content can consist of schema derived interfaces
+ * and classes representing the binding of schema
+ * type definitions, element declarations and model
+ * groups.  Factory methods for each of these are
  * provided in this class.
- * 
  */
 @XmlRegistry
 public class ObjectFactory {
@@ -29,14 +27,12 @@ public class ObjectFactory {
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: proxy
-     * 
      */
     public ObjectFactory() {
     }
 
     /**
      * Create an instance of {@link ResoudreEq2Deg }
-     * 
      */
     public ResoudreEq2Deg createResoudreEq2Deg() {
         return new ResoudreEq2Deg();
@@ -44,7 +40,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ResoudreEq2DegResponse }
-     * 
      */
     public ResoudreEq2DegResponse createResoudreEq2DegResponse() {
         return new ResoudreEq2DegResponse();
@@ -52,7 +47,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link ResoudreEq2DegResponse }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "myservices", name = "resoudreEq2degResponse")
     public JAXBElement<ResoudreEq2DegResponse> createResoudreEq2DegResponse(ResoudreEq2DegResponse value) {
@@ -61,7 +55,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link ResoudreEq2Deg }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "myservices", name = "resoudreEq2deg")
     public JAXBElement<ResoudreEq2Deg> createResoudreEq2Deg(ResoudreEq2Deg value) {

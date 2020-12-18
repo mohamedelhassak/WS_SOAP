@@ -1,4 +1,3 @@
-
 package EXERCICES.EX2.proxy;
 
 import javax.xml.bind.JAXBElement;
@@ -8,18 +7,17 @@ import javax.xml.namespace.QName;
 
 
 /**
- * This object contains factory methods for each 
- * Java content interface and Java element interface 
- * generated in the myservices package. 
- * <p>An ObjectFactory allows you to programatically 
- * construct new instances of the Java representation 
- * for XML content. The Java representation of XML 
- * content can consist of schema derived interfaces 
- * and classes representing the binding of schema 
- * type definitions, element declarations and model 
- * groups.  Factory methods for each of these are 
+ * This object contains factory methods for each
+ * Java content interface and Java element interface
+ * generated in the myservices package.
+ * <p>An ObjectFactory allows you to programatically
+ * construct new instances of the Java representation
+ * for XML content. The Java representation of XML
+ * content can consist of schema derived interfaces
+ * and classes representing the binding of schema
+ * type definitions, element declarations and model
+ * groups.  Factory methods for each of these are
  * provided in this class.
- * 
  */
 @XmlRegistry
 public class ObjectFactory {
@@ -29,14 +27,12 @@ public class ObjectFactory {
 
     /**
      * Create a new ObjectFactory that can be used to create new instances of schema derived classes for package: myservices
-     * 
      */
     public ObjectFactory() {
     }
 
     /**
      * Create an instance of {@link ApproxPIResponse }
-     * 
      */
     public ApproxPIResponse createApproxPIResponse() {
         return new ApproxPIResponse();
@@ -44,7 +40,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link ApproxPI }
-     * 
      */
     public ApproxPI createApproxPI() {
         return new ApproxPI();
@@ -52,7 +47,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link ApproxPIResponse }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "myservices", name = "approxPIResponse")
     public JAXBElement<ApproxPIResponse> createApproxPIResponse(ApproxPIResponse value) {
@@ -61,7 +55,6 @@ public class ObjectFactory {
 
     /**
      * Create an instance of {@link JAXBElement }{@code <}{@link ApproxPI }{@code >}}
-     * 
      */
     @XmlElementDecl(namespace = "myservices", name = "approxPI")
     public JAXBElement<ApproxPI> createApproxPI(ApproxPI value) {

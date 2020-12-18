@@ -1,4 +1,3 @@
-
 package EXERCICES.EX4.proxy;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -9,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 /**
  * <p>Java class for resoudreEq2degResponse complex type.
- * 
+ *
  * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
  * <pre>
  * &lt;complexType name="resoudreEq2degResponse">
  *   &lt;complexContent>
@@ -23,12 +22,10 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "resoudreEq2degResponse",namespace = "myservice", propOrder = {
-    "_return"
+@XmlType(name = "resoudreEq2degResponse", namespace = "myservice", propOrder = {
+        "_return"
 })
 public class ResoudreEq2DegResponse {
 
@@ -37,11 +34,9 @@ public class ResoudreEq2DegResponse {
 
     /**
      * Gets the value of the return property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is
+     * {@link String }
      */
     public String getReturn() {
         return _return;
@@ -49,11 +44,9 @@ public class ResoudreEq2DegResponse {
 
     /**
      * Sets the value of the return property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is
+     *              {@link String }
      */
     public void setReturn(String value) {
         this._return = value;

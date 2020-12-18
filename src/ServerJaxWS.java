@@ -18,20 +18,21 @@ public class ServerJaxWS {
 
 
         /***********************************************************
-        *                deployer les services                     *
-        ***********************************************************/
+         *                deployer les services                     *
+         ***********************************************************/
 
         //deployer EX1
-        //Endpoint.publish(URL_EX1,new BanqueService());
+        Endpoint.publish(URL_EX1,new BanqueService());
+        System.out.println("Web Service Demarre sur "+URL_EX1+" ...");
 
         //deployer EX2
-        //Endpoint.publish(URL_EX2,new ApproxPIService());
-        //System.out.println("Web Service Demarre sur "+URL_EX2+" ...");
+        Endpoint.publish(URL_EX2,new ApproxPIService());
+        System.out.println("Web Service Demarre sur "+URL_EX2+" ...");
 
-        Endpoint.publish(URL_EX3,new EtudiantSOAPService());
-        System.out.println("Web Service Demarre sur "+URL_EX3+" ...");
+        Endpoint.publish(URL_EX3, new EtudiantSOAPService());
+        System.out.println("Web Service Demarre sur " + URL_EX3 + " ...");
 
-        Endpoint.publish(URL_EX4,new EQ2DEGService());
-        System.out.println("Web Service Demarre sur "+URL_EX4+" ...");
+        Endpoint.publish(URL_EX4, new EQ2DEGService());
+        System.out.println("Web Service Demarre sur " + URL_EX4 + " ...");
     }
 }
